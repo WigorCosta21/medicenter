@@ -274,3 +274,131 @@ aside .widget_body_contact a{
     text-decoration: dotted;
 
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+.footer_menu{
+    display: flex;
+    
+}
+
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: #FFF;
+    padding: 20px;
+}
+
+.fm_1{
+    background-color: #39AAE1;
+}
+
+.fm_2{
+    background-color: #0079C7;
+}
+
+.fm_3{
+    background-color: #2B4C99;
+}
+
+.fm_title h2{
+    font-size: 23px;
+}
+
+.fm_title a{
+    font-size: 14px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.flex_column{
+    flex-direction: column;
+}
+
+.footer_area{
+    display: flex;
+    color: #FFF;
+}
+
+.footer_area_item{
+    flex: 1;
+}
+
+footer .widget_title_text{
+    color: #FFF;
+}
+
+.text_footer{
+    color: #666;
+    font-size: 13px;
+}
+
+.info_footer{
+    display: flex;
+    color: #666;
+    font-size: 13px;
+}
+
+.info_footer ul{
+    padding: 0;
+}
+
+.info_footer ul li {
+    list-style: none;
+}
+
+.info_footer ul li a{
+    text-decoration: none;
+    color: #666;
+}
+
+
+.info_contact_footer{
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+.social_footer{
+    margin-top: 30px;
+}
+
+.post_twitter_footer{
+   margin-top: 10px;
+   max-width: 95%;
+   line-height: 25px
+}
+
+.post_twitter_footer a{
+    text-decoration: none;
+    color: #D5D5D5;
+    font-size: 13px;
+}
+
+.post_twitter_footer a:hover{
+    text-decoration: underline;
+}
+
+.post_twitter_info_footer{
+    margin: 10px 0 10px 0px;
+}
+
+.date_footer{
+    color: #42B3E5;
+    font-size: 11px;
+}
+
+.twitter_info{
+    font-size: 13px;
+}
+
+.footer_copy{
+    color: #5c5c5c;
+    font-size: 12;
+    border-top: 1px solid #CCC;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
